@@ -1,0 +1,34 @@
+   p {
+  		color: blanchedalmond;
+  		width: 700px;
+  		border: 1px solid black;
+  		font-size: 25px;
+	}
+	html {
+		color: white;
+  		font-size: 30px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+  		font-family: placeholder: Este debe ser el resto del resultado que obtuviste de Google fonts;
+  	    background-color: wheat;
+
+	}
+	ul {
+  		font-size: 20px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+  		font-family: placeholder: Este debe ser el resto del resultado que obtuviste de Google fonts
+	}
+	body {
+  		width: 800px;
+		margin: 0 auto;
+		background-color:darkslategray;
+		padding: 0 20px 20px 20px;
+		border: 10px solid black;
+	}
+	h1 {
+ 		margin: 0 ;
+  		padding: 30px 0;    
+  		color: darkorange;
+  		text-shadow: 3px 3px 1px black;
+	}
+	img2 {
+  display: block;
+  margin: 0 auto;
+}

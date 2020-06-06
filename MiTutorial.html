@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Motos</title>
+    <link href="estilos/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+    </head>
+  <body>
+  	<h1> Motos Honda </h1>
+  	<img class="2"src="https://www.honda.es/content/dam/central/motorcycles/street/cb1000r-2018/Honda-CB1000R-Overview11-16x9.jpg/jcr:content/renditions/m_r.jpg" alt="Mi imagen de prueba">
+    <h2> Motos Historia </h2>
+    
+    <a href="https://www.motociclismo.es/motos/honda">Historia de Motos</a>
+    
+    <img class="2"src="https://www.mexicoautomotriz.mx/img/CB-160-3.jpg"alt="Mi imagen de prueba 2">
+    <p>Modelos de Motos </p>
+    
+      <ul>
+        <li>Honda GL1800 Gold Wing</li><img class="1" src="https://www.arpem.com/imagenes/grid/1/7/1/8/lateral.2261718.jpg" alt="Honda1">
+        <li>Honda GL1800 Gold Wing 2020</li> <img class="1" src="https://www.arpem.com/imagenes/grid/1/6/3/8/lateral.3721638.jpg"alt="Honda2">
+        <li>Honda GL1800 Gold Wing Tour</li><img class="1" src="https://www.arpem.com/imagenes/grid/1/7/2/2/lateral.2261722.jpg" alt="Honda3">
+        <li>Honda GL1800 Gold Wing Tour 2020</li><img class="1" src="https://www.arpem.com/imagenes/grid/1/6/4/2/lateral.3721642.jpg"alt="Honda4">
+        <li>Honda VFR800F</li><img class="1" src="https://www.arpem.com/imagenes/grid/4/9/4/2/lateral_1.jpg" alt="Honda5">
+      </ul>
+      <a>Más modelos de motocicletas</a>
+      <a href="https://www.arpem.com/imagenes/grid/4/9/4/2/lateral_1.jpg">Galerias de fotos de Honda</a>
+
+  </body>
+</html>
+<script type="text/javascript">
+var miImage = document.querySelector('img');
+
+miImage.onclick = function () {
+    var miSrc = miImage.getAttribute('src');
+    if (miSrc === 'https://i.pinimg.com/originals/78/ef/0e/78ef0e1b5be69826750ecc187d46ec38.webp') {
+      miImage.setAttribute('src','https://i.pinimg.com/564x/b5/67/d7/b567d7e9b11686931e7acbcb484bda84.jpg');
+    } else {
+      miImage.setAttribute('src', 'https://i.pinimg.com/originals/78/ef/0e/78ef0e1b5be69826750ecc187d46ec38.webp');
+    }
+}</script>
